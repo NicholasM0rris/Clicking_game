@@ -23,7 +23,7 @@ class ClickingGame(threading.Thread):
         self.start()
 
     def callback(self):
-        sys.exit()
+        os._exit(1)
 
     def run(self):
         self.top = tk.Tk()
@@ -141,7 +141,7 @@ def new_round(self):
 
 def main(arglist):
     game = ClickingGame()
-    time.sleep(3)
+    time.sleep(10)
     #print('test')
     try:
         countdown(game)
