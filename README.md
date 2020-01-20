@@ -6,4 +6,5 @@ There are some interesting sound effects included.
 
 <h3> <u>Example game </u> </h3>
 
-![Example gif]('support/gif.gif')
+![Example gif](support/gif.gif)
+
